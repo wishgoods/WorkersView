@@ -1,0 +1,11 @@
+<div class="users_container">
+
+  <mat-select dir="rtl" id="search-select"  class="form-control" placeholder= "selecteduser" floatlLabel="never" [(ngModel)]="selecteduser" required >
+    <mat-option disabled>בחר עובד</mat-option>
+    <mat-option *ngFor="let user of users" [value]="user.EmployeeName" (click)="changeSelection()">
+      <div>{{user.EmployeeName}} <img src={{user.EmployeePicture}} alt="user img"></div>
+    </mat-option>
+  </mat-select>
+
+
+</div>

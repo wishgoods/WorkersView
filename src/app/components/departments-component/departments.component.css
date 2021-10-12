@@ -1,0 +1,8 @@
+.treeview-container .row-item {
+    margin-bottom: .3rem;
+    flex-wrap: nowrap;
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

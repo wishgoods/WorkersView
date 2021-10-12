@@ -1,0 +1,21 @@
+ <div class="title-container">
+<h4>{{selected_user}}</h4>
+</div>
+<table id="dt-tasks" class="table table-striped table-bordered table-sm " cellspacing="1" width="100%">
+ <tr class="header-row text-center"><th> מספר משימה</th><th>שם משימה</th><th>סטטוס</th><th>שם עובד</th><th>שם מחלקה</th><th>תאריך לביצוע</th></tr>
+<tr *ngFor="let task of pageOfItems" class="text-center">
+<td>{{task.TaskNumber+1}}</td>
+<td>{{task.TaskName}}</td>
+<td>{{task.StatusID}}</td>
+<td>{{task.EmployeeName}}</td>
+<td>{{task.DepartmentID}}</td>
+<td>{{task.DueDate}}</td>
+</tr>
+</table>
+<div class="card-footer pb-0 pt-3">
+        <jw-pagination [items]="tasks" [pageSize]="pageSize" (changePage)="onChangePage($event)"></jw-pagination>
+        <mat-select dir="rtl" id="size-select"  class="form-control" placeholder= "10" floatlLabel="never" [(ngModel)]="pageSize" required>
+            <mat-option *ngFor="let num of numbers" [value]="num" >{{num}}</mat-option>
+        </mat-select>
+
+</div>

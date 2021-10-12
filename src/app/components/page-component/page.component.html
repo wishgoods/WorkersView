@@ -1,0 +1,28 @@
+<html>
+    <head><title>Tasks</title></head>
+    <body>
+
+        <div class="main-container content-table row"> 
+
+            <div class="right-side col-4">
+
+                <div class = "search-container ">
+                    <app-search (click)="selectionChanged()"></app-search>
+                    <h4>חפש עובד</h4>
+                </div>
+                <div class = "blue-line"></div>
+                <div class = "departments-container ">
+                    <app-departments  ></app-departments>  
+                </div>
+
+            </div>
+
+            <div class="left-side col-8">
+                    <app-tasks ></app-tasks>
+            </div>
+
+        </div>
+    </body>
+</html>
+
+
