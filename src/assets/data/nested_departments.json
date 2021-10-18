@@ -1,0 +1,142 @@
+
+{
+  "departments_data": 
+  [
+    {
+        "text": "Krog",
+        "value": "c1",
+        "children": [
+            {
+                "text": "Futuris",
+                "value": "c1",
+                "children": [],
+                "id": "2"
+            }
+        ],
+        "id": "1"
+    },
+    {
+        "text": "Splinx",
+        "value": "c2",
+        "children": [
+            {
+                "text": "Centuria",
+                "value": "c1",
+                "children": [],
+                "id": "4"
+            },
+            {
+                "text": "Crustatia",
+                "value": "c2",
+                "children": [],
+                "id": "5"
+            }
+        ],
+        "id": "3"
+    },
+    {
+        "text": "Oceanica",
+        "value": "c3",
+        "children": [
+            {
+                "text": "Lunchpad",
+                "value": "c1",
+                "children": [],
+                "id": "7"
+            },
+            {
+                "text": "Nebulean",
+                "value": "c2",
+                "children": [],
+                "id": "8"
+            }
+        ],
+        "id": "6"
+    },
+    {
+        "text": "Exostream",
+        "value": "c4",
+        "children": [
+            {
+                "text": "Delphide",
+                "value": "c1",
+                "children": [],
+                "id": "10"
+            },
+            {
+                "text": "Boilcat",
+                "value": "c2",
+                "children": [],
+                "id": "11"
+            }
+        ],
+        "id": "12"
+    },
+    {
+        "text": "Locazone",
+        "value": "c5",
+        "children": [],
+        "id": "13"
+    },
+    {
+        "text": "Synkgen",
+        "value": "c6",
+        "children": [
+            {
+                "text": "Hopeli",
+                "value": "c1",
+                "children": [],
+                "id": "14"
+            },
+            {
+                "text": "Telequiet",
+                "value": "c2",
+                "children": [],
+                "id": "15"
+            },
+            {
+                "text": "Quilch",
+                "value": "c3",
+                "children": [],
+                "id": "16"
+            },
+            {
+                "text": "Quadeebo",
+                "value": "c4",
+                "children": [],
+                "id": "17"
+            }
+        ],
+        "id": "18"
+    },
+    {
+        "text": "Uneeq",
+        "value": "c7",
+        "children": [
+            {
+                "text": "Netropic",
+                "value": "c1",
+                "children": [],
+                "id": "19"
+            },
+            {
+                "text": "Pearlesex",
+                "value": "c2",
+                "children": [],
+                "id": "20"
+            },
+            {
+                "text": "Marqet",
+                "value": "c3",
+                "children": [],
+                "id": "21"
+            }
+        ],
+        "id": "22"
+    }
+]
+
+
+
+
+}

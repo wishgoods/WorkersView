@@ -2,22 +2,22 @@
     <head><title>Tasks</title></head>
     <body>
 
-        <div class="main-container content-table row"> 
+        <div class="main-container  row"> 
 
-            <div class="right-side col-4">
+            <div class="right-side col-3">
 
                 <div class = "search-container ">
-                    <app-search (click)="selectionChanged()"></app-search>
+                    <app-search ></app-search>
                     <h4>חפש עובד</h4>
                 </div>
-                <div class = "blue-line"></div>
+                
                 <div class = "departments-container ">
-                    <app-departments  ></app-departments>  
+                    <app-treeview  ></app-treeview>  
                 </div>
 
             </div>
 
-            <div class="left-side col-8">
+            <div class="left-side col-9">
                     <app-tasks ></app-tasks>
             </div>
 

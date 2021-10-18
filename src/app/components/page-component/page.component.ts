@@ -1,6 +1,9 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
+import { Component, Injectable, OnInit, ViewChild } from '@angular/core';
+import { TreeviewItem } from 'ngx-treeview';
 import { TasksComponent } from '../tasks-component/tasks.component';
-
+@Injectable({ 
+  providedIn: 'root' 
+})
 @Component({
   selector: 'app-page',
   templateUrl: './page.component.html',
@@ -19,6 +22,11 @@ export class PageComponent implements OnInit {
 
   }
   selectionChanged(){
+    this.child?. refreshDepartments();
     this.child?.changeSelection();
+    
+  }
+  departmentChanged(item: any[]){
+    this.child?.changeDepartment(item);
   }
 }

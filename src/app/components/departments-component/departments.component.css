@@ -1,4 +1,4 @@
-.treeview-container .row-item {
+.ngx-treeview  {
     margin-bottom: .3rem;
     flex-wrap: nowrap;
     width: 100px;
@@ -6,3 +6,4 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+    

@@ -7,9 +7,9 @@ import { SearchComponent } from './components/search-component/search.component'
 import { FormsModule } from '@angular/forms';
 import { DepartmentsComponent } from './components/departments-component/departments.component';
 import { TasksComponent } from './components/tasks-component/tasks.component';
+import { TreeviewComponent } from './components/treeview-component/treeview.component';
 import {
   TreeviewModule,
-  DropdownTreeviewComponent,
   TreeviewConfig,
   TreeviewI18n,
   DefaultTreeviewEventParser,
@@ -21,6 +21,7 @@ import { MatOptionModule } from '@angular/material/core';
 import { SelectionService } from './services/selection.service';
 import { JwPaginationModule } from 'jw-angular-pagination';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,6 +29,7 @@ import { JwPaginationModule } from 'jw-angular-pagination';
     SearchComponent,
     DepartmentsComponent,
     TasksComponent,
+    TreeviewComponent
    
 
   ],
@@ -39,7 +41,8 @@ import { JwPaginationModule } from 'jw-angular-pagination';
     FormsModule,
     TreeviewModule.forRoot(),
     BrowserAnimationsModule,
-    JwPaginationModule
+    JwPaginationModule,
+    
   ],
   providers: [SelectionService, TreeviewConfig,
     { provide: TreeviewEventParser, useClass: DefaultTreeviewEventParser }],

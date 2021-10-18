@@ -1,0 +1,42 @@
+.treeview-container{
+
+    padding-top: 2rem;
+    width:100%;
+}
+.treeview-item
+{
+    vertical-align: middle;
+    width:100%;
+}
+.card-item
+{
+    
+    display: table;
+   
+    vertical-align: middle;
+    width:100%;
+   
+}
+i{
+    display: table-cell;
+    padding: 0.5rem;
+    align-self: right;
+    right:0px;
+    float:right; 
+}
+h4{
+
+    display: table-cell;
+    padding: 0.5rem;
+    align-self: right;
+    float:right; 
+}
+.treeview-child-item{
+    
+    padding-top: 1rem;
+    padding-right: 15%;
+    vertical-align: middle;
+    place-items: right;
+    width:100%;
+    
+}

@@ -9,24 +9,19 @@ export class departments {
   getDepartments() {
     return (
       [{
-          "DepartmentID": 9,
+          "DepartmentID": 14,
           "DepartmentName": "Hopeli",
-          "ParentID": 8
+          "ParentID": 18
         },
         {
-          "DepartmentID": 10,
+          "DepartmentID": 15,
           "DepartmentName": "Telequiet",
-          "ParentID": 8
-        },
-        {
-          "DepartmentID": 6,
-          "DepartmentName": "Krog",
-          "ParentID": 0
+          "ParentID": 18
         },
         {
           "DepartmentID": 1,
-          "DepartmentName": "Polaria",
-          "ParentID": 4
+          "DepartmentName": "Krog",
+          "ParentID": 0
         },
         {
           "DepartmentID": 6,
@@ -34,129 +29,89 @@ export class departments {
           "ParentID": 10
         },
         {
-          "DepartmentID": 9,
+          "DepartmentID": 10,
           "DepartmentName": "Delphide",
-          "ParentID": 5
+          "ParentID": 12
         },
         {
-          "DepartmentID": 6,
+          "DepartmentID": 16,
           "DepartmentName": "Quilch",
-          "ParentID": 8
+          "ParentID": 18
         },
         {
-          "DepartmentID": 2,
+          "DepartmentID": 3,
           "DepartmentName": "Splinx",
           "ParentID": 0
         },
         {
-          "DepartmentID": 10,
+          "DepartmentID": 6,
           "DepartmentName": "Oceanica",
           "ParentID": 0
         },
         {
-          "DepartmentID": 10,
-          "DepartmentName": "Farmex",
-          "ParentID": 1
-        },
-        {
-          "DepartmentID": 2,
+          "DepartmentID": 19,
           "DepartmentName": "Netropic",
-          "ParentID": 9
+          "ParentID": 22
         },
         {
-          "DepartmentID": 4,
-          "DepartmentName": "Amtas",
-          "ParentID": 1
-        },
-        {
-          "DepartmentID": 5,
+          "DepartmentID": 17,
           "DepartmentName": "Quadeebo",
-          "ParentID": 8
+          "ParentID": 18
         },
         {
-          "DepartmentID": 5,
+          "DepartmentID": 12,
           "DepartmentName": "Exostream",
           "ParentID": 0
         },
         {
-          "DepartmentID": 5,
+          "DepartmentID": 20,
           "DepartmentName": "Pearlesex",
-          "ParentID": 9
+          "ParentID": 22
         },
         {
-          "DepartmentID": 10,
+          "DepartmentID": 13,
           "DepartmentName": "Locazone",
           "ParentID": 0
         },
         {
-          "DepartmentID": 3,
-          "DepartmentName": "Dyno",
-          "ParentID": 1
-        },
-        {
-          "DepartmentID": 10,
-          "DepartmentName": "Luxuria",
-          "ParentID": 3
-        },
-        {
-          "DepartmentID": 1,
-          "DepartmentName": "Eclipto",
-          "ParentID": 1
-        },
-        {
-          "DepartmentID": 3,
+          "DepartmentID": 2,
           "DepartmentName": "Futuris",
-          "ParentID": 6
-        },
-        {
-          "DepartmentID": 7,
-          "DepartmentName": "Cablam",
           "ParentID": 1
         },
         {
-          "DepartmentID": 8,
+          "DepartmentID": 18,
           "DepartmentName": "Synkgen",
           "ParentID": 0
         },
         {
-          "DepartmentID": 6,
+          "DepartmentID": 8,
           "DepartmentName": "Nebulean",
-          "ParentID": 10
+          "ParentID": 6
         },
         {
-          "DepartmentID": 7,
+          "DepartmentID": 4,
           "DepartmentName": "Centuria",
-          "ParentID": 2
-        },
-        {
-          "DepartmentID": 5,
-          "DepartmentName": "Ewaves",
           "ParentID": 3
         },
         {
-          "DepartmentID": 9,
+          "DepartmentID": 22,
           "DepartmentName": "Uneeq",
           "ParentID": 0
         },
         {
-          "DepartmentID": 2,
+          "DepartmentID": 5,
           "DepartmentName": "Crustatia",
-          "ParentID": 2
+          "ParentID": 3
         },
         {
-          "DepartmentID": 1,
+          "DepartmentID": 21,
           "DepartmentName": "Marqet",
-          "ParentID": 9
+          "ParentID": 22
         },
         {
-          "DepartmentID": 10,
-          "DepartmentName": "Zolarex",
-          "ParentID": 1
-        },
-        {
-          "DepartmentID": 7,
+          "DepartmentID": 11,
           "DepartmentName": "Boilcat",
-          "ParentID": 5
+          "ParentID": 12
         }
       ]);
   }

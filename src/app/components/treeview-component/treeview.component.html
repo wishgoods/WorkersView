@@ -1,0 +1,8 @@
+<div class = "treeview-container ">
+    <div class= " treeview-item" *ngFor="let dep of departments">
+      <div class="card-item" > <i class="fas fa-envelope text-info"></i><h4 (click)="selectDepartment($event)"> {{dep.text}}</h4><div>
+            <div  class= "treeview-child-item" *ngFor="let d of dep.children">
+                <div class="card-item" *ngIf = "checkClicked(dep.text)"><i class="fas fa-envelope text-info"></i><h4 title ="{{d.text}}" (click)="selectDepartment($event)"> {{d.text}}</h4></div>
+            </div>
+    </div>
+</div>

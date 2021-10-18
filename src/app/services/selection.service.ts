@@ -5,7 +5,7 @@ import { BehaviorSubject, Observable } from "rxjs";
 @Injectable()
 export class SelectionService {  
 
-  private _selected_user:BehaviorSubject<string> = new BehaviorSubject('שם העובד או המחלקה');
+  private _selected_user:BehaviorSubject<string> = new BehaviorSubject('כל העובדים');
 
   constructor() { }
 
